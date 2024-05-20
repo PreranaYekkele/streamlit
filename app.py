@@ -3,11 +3,11 @@ import customer_app
 import retailer_dashboard
 
 def main_page():
-    st.title("Nova")
-    st.markdown("## hi, we are Nova, your ultimate go-to shopping assistants")
-    if st.button("Customer hai? Click Here"):
+    # st.title("Nova")
+    st.markdown("## hi, we are Novas, your ultimate go-to shopping assistants")
+    if st.button("Customer ho toh yaha dabao"):
         st.session_state['page'] = 'customer'
-    if st.button("Retailer hai? Click Here"):
+    if st.button("yeh retailers ke liye hai"):
         st.session_state['page'] = 'retailer'
 
 def main():
